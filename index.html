@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./lib/vue.js"></script>
+    <link rel="stylesheet" href="./lib/index.css">
+    <script src="./lib/index.js"></script>
+    <title>Wzc's Home</title>
+</head>
+<body background="./assets/bg.png" style="background-repeat: no-repeat; background-attachment: fixed; background-size: 100%,100%;">
+    <div id="app">
+        <div id="welcome">WELCOME</div>
+        <el-button type="primary">主要按钮</el-button>
+        <a href="http://localhost:8080/hello">111</a>
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
+
+
+
+
+<script>
+    
+new Vue({
+    el:"#app",
+    data(){
+        
+        return{
+            message:'hello'
+        }
+        
+        
+    }
+})
+</script>
+
+
+<style>
+#app{
+    width: 80%;
+    margin: 0% 10% 0% 10% ;
+}
+#welcome{
+    color:rgb(0, 136, 255);
+    font-size: 100px;
+    
+}
+</style>
